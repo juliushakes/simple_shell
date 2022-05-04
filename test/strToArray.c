@@ -1,4 +1,4 @@
-#include "../holberton.h"
+#include "../main.h"
 
 /**
   *tokenaization - split a sentence into multiple words.
@@ -10,8 +10,10 @@ char **tokenaization(char *str)
 int i = 0;
 const char s[2] = " ";
 int len_str = strlen(str);
-//for a 4 words sentence, we only need 4 + 1 (for the NULL) memory address to point to all
-// the strings we need, not the whole strlen
+/**
+ *for a 4 words sentence, we only need 4 + 1 (for the NULL) memory address to point to all
+ *the strings we need, not the whole strlen
+ */
 char **tokens = malloc(sizeof(char *) * (6));
 char *token;
 printf("%i\n", len_str);
@@ -46,5 +48,3 @@ int main(int argc, char const *argv[])
     free(tokens);  
     return 0;
 }
-
-//TODO: Do the same with linked lists
