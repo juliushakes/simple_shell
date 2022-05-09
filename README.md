@@ -41,4 +41,4 @@ This file contains the details of all the individuals that contributed to this s
 
 ## Credits
 
-All codes written by Tusingwire Julius and
+All codes written by Tusingwire Julius and Elvis THOMME
