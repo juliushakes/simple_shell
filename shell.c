@@ -48,7 +48,7 @@ void _isatty(void)
  * Return: Always 0, -1 on error.
  */
 
-int main(int argc, char **argv)
+int main(void)
 {
 	ssize_t len = 0;
 	char *buff = NULL, *value, *pathname, **arv;
